@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Koi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-17 20:56-0500\n"
+"PO-Revision-Date: 2011-05-17 20:56-0500\n"
+"Last-Translator: Themify <team@themify.me>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:21
+#: ../includes/loop.php:32
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:21
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:21
+#: ../includes/loop.php:32
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:58
+msgid "Your Name"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Your Email"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Your Website"
+msgstr ""
+
+#: ../comments.php:73
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Cancel"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Post Comment"
+msgstr ""
+
+#: ../custom_functions.php:414
+msgid "Main Navigation"
+msgstr ""
+
+#: ../custom_functions.php:473
+#, php-format
+msgid "<cite>%s</cite>"
+msgstr ""
+
+#: ../custom_functions.php:478
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../custom_functions.php:484
+msgid "Reply"
+msgstr ""
+
+#: ../index.php:137
+msgid "Search Results for:"
+msgstr ""
+
+#: ../index.php:186
+msgid "Sorry, nothing found."
+msgstr ""
+
+#: ../page.php:77
+msgid "404"
+msgstr ""
+
+#: ../page.php:78
+msgid "Page not found."
+msgstr ""
+
+#: ../page.php:97
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:99
+msgid "Edit"
+msgstr ""
+
+#: ../sidebar.php:6
+msgid "Pages"
+msgstr ""
+
+#: ../sidebar.php:13
+msgid "Category"
+msgstr ""
+
+#: ../includes/loop.php:29
+msgid "d"
+msgstr ""
+
+#: ../includes/loop.php:30
+msgid "M"
+msgstr ""
+
+#: ../includes/loop.php:31
+msgid "Y"
+msgstr ""
+
+#: ../includes/loop.php:32
+msgid "1 Comment"
+msgstr ""
+
+#: ../includes/loop.php:48
+msgid "More &rarr;"
+msgstr ""
+
+#: ../includes/pagination.php:5
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/pagination.php:6
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../includes/post-nav.php:2
+msgid "<em>Prev</em> %link"
+msgstr ""
+
+#: ../includes/post-nav.php:3
+msgid "<em>Next</em> %link"
+msgstr ""
+
+#: ../themify/themify-widgets.php:403
+msgid "Select Category"
+msgstr ""
+
+#: ../themify/themify-widgets.php:871
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../themify/themify-widgets.php:873
+msgid "Y/m/d"
+msgstr ""
+
+#: ../themify/themify-widgets.php:875
+#, php-format
+msgid "%s"
+msgstr ""
+
