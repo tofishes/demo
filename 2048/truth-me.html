@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://lioninteractive.cn/game/2048acc/?from=singlemessage&isappinstalled=0 -->
+<html><head>
+  <meta charset="utf-8">
+  <title>修真世界 - 修的真我</title>
+
+  <link href="./res/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="http://cssor.com/wp-content/themes/freshgreen/img-res/favicon.ico">
+  <link rel="apple-touch-icon" href="http://cssor.com/wp-content/themes/freshgreen/img-res/favicon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=300dpi, initial-scale=0.5, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">修真世界</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">修真兮，路漫漫兮，只为求得真我！</p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-2 tile-position-2-3 tile-new"><div class="tile-inner" style="font-size: 30px; font-family: '微软雅黑';">习武</div></div><div class="tile tile-2 tile-position-3-1 tile-new"><div class="tile-inner" style="font-size: 30px; font-family: '微软雅黑';">习武</div></div></div>
+    </div>
+<script>
+    var my_list = {2:'习武',4:'先天',8:'筑基',16:'金丹',32:'元婴',64:'合体',128:'大乘',256:'天仙',512:'金仙',1024:'大罗天仙',2048:'圣人',4096:'道祖'}
+    var my_mark = {2:'“习武之道，要自强不息”',4:'“通灵自然，可以入门了”',8:'“此乃修真奠基，灵根太差，下辈子努力吧！”',16:'“能修炼到此，倒也可以多活几百年了。”',32:'“修成元神灵胎，够你几千年寿命呢！”',64:'“灵肉合一，成为一体，修真大道已为你敞开！”',128:'“寿元可达万年，你足以逍遥世间了！”',256:'“恭喜飞升仙界，成为一名仙界平民。”',512:'“仙路走到此，灵根不错啊！”',1024:'“仙界高层了呢，这就满足了？！”',2048:'“圣人之下，皆为蝼蚁！”', 4096: '“以身化道，宇宙合一！恭喜你已成为鸿钧一样的人物！”'}
+    var my_goal = 2048;
+  </script>
+  <h4 font-size:="" 15px="">
+滑动方块，使两个相同的块重合就获得新的方块，类似于2+2=4 4+4=8。
+</h4>
+<h4 font-size:="" 15px="">
+Modify by <a href="cssor.com">ToFishes</a>, I has no copyright!<br><br>
+</h4>
+  </div>
+
+  <script src="./res/bind_polyfill.js"></script>
+  <script src="./res/classlist_polyfill.js"></script>
+  <script src="./res/animframe_polyfill.js"></script>
+  <script src="./res/keyboard_input_manager.js"></script>
+  <script src="./res/html_actuator.js"></script>
+  <script src="./res/grid.js"></script>
+  <script src="./res/tile.js"></script>
+  <script src="./res/local_storage_manager.js"></script>
+  <script src="./res/game_manager.js"></script>
+  <script src="./res/application.js"></script>
+</body></html>

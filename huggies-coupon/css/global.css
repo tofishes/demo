@@ -1,0 +1,54 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, 
+ul, ol, li, pre, form, fieldset, lengend, button, input, textarea,th, td {
+    margin: 0;  padding: 0; }
+body,button, input, select, textarea { font:14px/20px Tahoma, Arial, Helvetica;  }
+button, input, select, textarea { font-size: 100%; }
+h2, h3 { font-size:14px; }
+h4,h5,h6 { font-size: 12px; }
+address, cite, em, dfn{ font-style: normal; } 
+ul, ol { list-style: none; }
+a,a:visited { cursor: pointer;text-decoration: none; color: #ccc; }
+q:before, q:after { content: ''; }
+fieldset,img { border: none; }
+img {vertical-align: middle} 
+table { border-collapse: collapse; border-spacing: 0; }
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html{overflow-y: scroll; }
+body {background:#fff;color:#333;text-align: center;}
+input {border:none;background:transparent;outline:none}
+/* layout */
+.clear{zoom:1;}
+.clear:after {clear:both; content:'\20';display: block;}/* clear float */
+
+h1 {margin:0 30px;height:138px;background: url(image/logo-platimun.png) no-repeat 50% 0;background-size:contain;}
+h1.silver {background-image: url(image/logo-silver.png)}
+h1 em {display: none}
+.section {margin:30px auto; max-width:660px}
+.banner, .main {display:inline-block;_display:inline;+display:inline;zoom:1;vertical-align:middle}
+.banner {margin:20px 0 30px;}
+.main {margin:0 0 10px;}
+.input-wrap {display:inline-block;width:176px;height:32px;line-height:30px;vertical-align:middle;background: url(image/bg-input.png) no-repeat}
+.input-wrap input {margin-left:2px;width:163px;height:32px;line-height: 32px;font-size: 18px}
+#get-promo-code {margin-top:40px;width:184px;height:42px;background:url(image/get.png) no-repeat;cursor:pointer;}
+.split {margin-top:40px;padding-top:40px;border-top:2px dashed #cecece}
+#footer {height:190px;background:#EEE1B4 url(image/foot-pc.png) no-repeat 50% 50%;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.17) inset;
+}
+#tip {display:none;position:fixed;z-index:20;left:50%;top:50%;margin:-45px 0 0 -150px;width:300px;
+        background: #fff;box-shadow:0 0 3px 3px rgba(0, 0, 0, 0.3)
+}
+#tip-con {padding:20px;min-height:20px;text-align: center}
+#tip-foot {height:40px;line-height: 40px;background:#EEE1B4}
+.btn {padding:3px 15px;background:#E31836;color:#fff;font-weight:600}
+.full-overlay {
+    display:none;position:fixed; z-index:10;top:0;bottom:0;left:0;right:0;margin:0 0;
+    background:rgba(0,0,0,.4);
+}
+
+@media only screen and (max-device-width: 1205px) {
+    .section {max-width:373px}
+    img {max-width:100%}
+    .phone-label {max-width:130px}
+    .promo-label {max-width:70px;}
+    #footer {background-image: url(image/foot-phone.png);background-size:contain;}
+}
