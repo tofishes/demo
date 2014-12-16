@@ -17,7 +17,8 @@ h3 { font-size:18px }
 h4 {font-size:16px}
 h5,h6 { font-size: 14px}
 address, cite, em, dfn{ font-style: normal} 
-ul, ol { list-style: none }
+ul { list-style: none }
+ol {margin-left: 2em;}
 a { cursor: pointer;text-decoration: none;color:#A73922}
 a:hover, .light{color:#D1472A ;
 	-moz-transition:color,background-color .3s ease-in;
@@ -156,8 +157,8 @@ h2 a {color:#717C42}
 section .btn {margin:0 10px}
 .entry-content {line-height:1.6;font-size:14px}
 	.entry-content p, section p {margin:20px 0;}
-	.entry-content ul {list-style:disc outside;margin-left:3.5em}
-	.entry-content ol {list-style:decimal outside;margin-left:3.5em}
+	.entry-content ul {list-style:disc outside;margin:0 2em}
+	.entry-content ol {list-style:decimal outside;margin:0 2em}
 	.entry-content img, section img {max-width:500px}
 
 article aside {margin-top:20px;padding:5px 0;border-top:1px solid #690}
